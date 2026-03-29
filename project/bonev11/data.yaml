@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 3
+names: ['Leg Fibula', 'Leg Tibia', 'femur']
+
+roboflow:
+  workspace: demo-ts1ln
+  project: bone-fuh5e
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/demo-ts1ln/bone-fuh5e/dataset/1
